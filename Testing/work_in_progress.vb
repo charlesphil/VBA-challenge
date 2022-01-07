@@ -68,5 +68,14 @@ Sub OutputInfo():
     ' Percentage formatting to two decimal places for Percent Change column
     Range("K2:K" & last_info_row).NumberFormat = "0.00%"
     
+    ' BONUS
+    
+    ' Headers and labels for bonus area
+    Cells(2, 15).Value = "Greatest % Increase"
+    Cells(3, 15).Value = "Greatest % Decrease"
+    Cells(4, 15).Value = "Greatest Total Volume"
+    Cells(1, 16).Value = "Ticker"
+    Cells(1, 17).Value = "Value"
+    
+    
 End Sub
-
