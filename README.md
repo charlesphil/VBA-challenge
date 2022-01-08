@@ -94,7 +94,7 @@ Using the newly formatted information, I opted to find the minimum and maximum p
 
 As I already have the maximum stock volume and the maximum and minimum percent change, all I need to do now is to loop through the outputted information to find the row that contains each value.
 
-Because we are deailng with two outcomes for one variable (percent change), I set up an If block to check for one or the other, and then output the matching ticker into the bonus area.
+Because we are dealing with two outcomes for one variable (percent change), I set up an If block to check for one or the other, and then output the matching ticker into the bonus area.
 
 I made a separate If block for the stock volume, as it could be possible for a company to have both the highest (or lowest) percent change and the biggest total stock volume.
 
